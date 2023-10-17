@@ -20,7 +20,7 @@
 name: Build and deploy ASP.Net Core app to an Azure Web App
 
 env:
-  AZURE_WEBAPP_NAME: your-app-name    # set this to the name of your Azure Web App
+  AZURE_WEBAPP_NAME: webapp-microsoft    # set this to the name of your Azure Web App
   AZURE_WEBAPP_PACKAGE_PATH: '.'      # set this to the path to your web app project, defaults to the repository root
   DOTNET_VERSION: '6.0'                 # set this to the .NET Core version to use
 
@@ -85,4 +85,8 @@ jobs:
         with:
           app-name: ${{ env.AZURE_WEBAPP_NAME }}
           publish-profile: ${{ secrets.ASPNET }}
+<<<<<<< HEAD
           package: ${{ env.AZURE_WEBAPP_PACKAGE_PATH }}
+=======
+          package: ${{ env.AZURE_WEBAPP_PACKAGE_PATH }}
+>>>>>>> 89ce5bac460e5021b8d2b30046709d7816cf43f3
