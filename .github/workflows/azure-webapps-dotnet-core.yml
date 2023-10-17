@@ -87,7 +87,6 @@
 #           publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
 #           package: ${{ env.AZURE_WEBAPP_PACKAGE_PATH }}
 
-
 name: Build and deploy ASP.Net Core app to an Azure Web App
 
 env:
@@ -145,6 +144,10 @@ jobs:
       url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
 
     steps:
+  
+      - name: Install Azure CLI
+        uses: azure/cli@v1
+          
       - name: Azure Login
         uses: azure/login@v1
         with:
