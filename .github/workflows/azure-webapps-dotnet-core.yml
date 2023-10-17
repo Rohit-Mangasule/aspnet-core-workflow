@@ -144,10 +144,12 @@ jobs:
       url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
 
     steps:
-  
+      
       - name: Install Azure CLI
         uses: azure/cli@v1
-          
+        with:
+          inlineScript: ''
+ 
       - name: Azure Login
         uses: azure/login@v1
         with:
