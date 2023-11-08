@@ -14,7 +14,8 @@ The website is desgined and with simle HTML,CSS .It contains link of blog and do
 
 ## Screenshots
 
-![image](https://github.com/Rohit-Mangasule/webapp-microsoft/assets/132603437/4d998cba-bd19-4b2d-a722-22bd13ad28d9)
+![image](https://github.com/Rohit-Mangasule/webapp-microsoft/assets/132603437/94fdef25-3ddb-4197-8940-2874db1eb8ae)
+
 
 ## Features
 
