@@ -14,8 +14,7 @@ The website is desgined and with simle HTML,CSS .It contains link of blog and do
 
 ## Screenshots
 
-![image](https://github.com/Rohit-Mangasule/aspnet-core-workflow/assets/132603437/80ec0227-cbb8-4884-afdd-641c7582c6ff)
-
+![image](https://github.com/Rohit-Mangasule/webapp-microsoft/assets/132603437/4d998cba-bd19-4b2d-a722-22bd13ad28d9)
 
 ## Features
 
